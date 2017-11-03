@@ -1,0 +1,322 @@
+body {
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Download-All-White-Image-PIC-WPC0013445.jpg");
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.naam {
+    display: none;
+}
+
+/*begin nav*/
+nav {
+    text-align: right;
+    margin-right: 75px;
+    /*display: inline-block;*/
+    font-size: 1.75rem;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+}
+
+ul, li { /*naast elkaar ipv onder elkaar, en ruimte tussen de tekst*/
+    display: inline-block;
+    margin: 15px;
+}
+
+a { /*zorgen dat de text in de nav geen lijn eronder heeft, en altijd een zwarte kleur behoud*/
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover { /*kleur geven wanneer je er met de muis overheen gaat*/
+    background-color: transparent;
+    color: grey;
+}
+
+/*einde nav*/
+
+/*begin contact formulier*/
+fieldset {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightgray;
+    opacity: 0.75;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1.35rem;
+    font-family: sans-serif;
+}
+
+input {
+    font-size: 1.25rem;
+}
+
+legend { /*geeft een naam aan het contact formulier*/
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.container { /*zorgt ervoor dat je met flexbox het contact formulier kan positioneren*/
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.versturen {
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+.send {
+    width: 100%;
+    height: 25px;
+    margin: 10px;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+/*einde contact formulier*/
+
+.bedankt {
+    width: auto;
+    height: auto;
+    background-color: lightskyblue;
+    opacity: 0.75;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    color: cornflowerblue;
+}
+
+.opleiding {
+    width: auto;
+    height: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    font-size: 1.25rem;
+    text-align: center;
+    background: linear-gradient(white, lightgrey, white);
+    border-radius: 25px;
+    box-shadow: lightgray 5px 7px;
+}
+
+.voornaamkleur{
+    color: orange;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.banner {
+    width: 100%;
+    height: 75px;
+    background-color: darkslategray;
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive;
+    color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    opacity: 0.85;
+}
+
+.imagegallery {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url("http://bananamoon-studio.com/site/assets/files/1103/462.jpg");
+    background-attachment: fixed;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+img {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.verplaatsimage {
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cv {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 250px;
+    background-color: lightskyblue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.voortgangstabel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 250px;
+    background-color: lightskyblue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+i {
+    margin-top: 60px;
+}
+
+.fa {
+    font-size: 100px !important;
+}
+/*begin progressbars*/
+
+.alleprogress{
+    width: 80%;
+    height: auto;
+    background-color: grey;
+    opacity: 0.6;
+    border-radius: 25px;
+    padding: 25px 25px 0 25px;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+.progressbar{
+    width: 90%;
+    height: 25px;
+    background-color: darkgrey;
+    margin:0 auto;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.progressbar2{
+    width: 90%;
+    height: 25px;
+    background-color: darkgrey;
+    margin:0 auto;
+    border-radius: 25px;
+}
+
+.html{
+    width:85%;
+    height:25px;
+    background-color: red;
+    border-radius: 25px;
+    text-align: right;
+    padding-right: 3%;
+    font-weight: 600;
+    color: white;
+    line-height: 25px;
+}
+
+.css{
+    width:80%;
+    height:25px;
+    background-color: green;
+    border-radius: 25px;
+    text-align: right;
+    padding-right: 3%;
+    font-weight: 600;
+    color: white;
+    line-height: 25px;
+}
+
+.java{
+    width:10%;
+    height:25px;
+    background-color: orange;
+    border-radius: 25px;
+    text-align: right;
+    padding-right: 3%;
+    font-weight: 600;
+    color: white;
+    line-height: 25px;
+}
+
+.php{
+    width:5%;
+    height:25px;
+    background-color: yellowgreen;
+    border-radius: 25px;
+    text-align: right;
+    padding-right: 3%;
+    font-weight: 600;
+    color: white;
+    line-height: 25px;
+}
+
+.update{
+    text-align: center;
+    font-size: 0.5rem;
+}
+/*eindeprogressbars*/
+
+footer{
+    width:100%;
+    height: 175px;
+    background-color: #225f85;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.75rem;
+    color: darkorange;
+    opacity: 0.9;
+}
+
+.footercontact {
+    width:auto;
+    height:auto;
+    margin-top: 2.5%;
+}
+
+.footeromhoog{
+    width: auto;
+    height: auto;
+    margin-top: 6%;
+}
+
+.omhoog{
+    background-color: transparent;
+    color: darkorange;
+    border-color: white;
+    border-radius: 5px 15px 5px 15px;
+}
+
+.footernote{
+    width: 25%;
+    height:auto;
+    margin-top:1%;
+}
