@@ -36,7 +36,7 @@ li a:hover { /*kleur geven wanneer je er met de muis overheen gaat*/
 /*einde nav*/
 
 /*begin contact formulier*/
-fieldset {
+fieldset {/*hiermee geef je alle cosmetische date mee*/
     width: 200px;
     height: auto;
     display: flex;
@@ -46,14 +46,14 @@ fieldset {
     opacity: 0.75;
 }
 
-label {
+label {/*geeft de naam aan de input*/
     margin-top: 10px;
     font-weight: 400;
     font-size: 1.35rem;
     font-family: sans-serif;
 }
 
-input {
+input {/*textveld aangeven hoe groot het lettertype moet*/
     font-size: 1.25rem;
 }
 
@@ -70,12 +70,12 @@ legend { /*geeft een naam aan het contact formulier*/
     justify-content: center;
 }
 
-.versturen {
+.versturen {/*geeft de stuur knop  grootte*/
     margin-top: 15px;
     margin-left: 55px;
 }
 
-.send {
+.send {/*geeft de stuur knop positie*/
     width: 100%;
     height: 25px;
     margin: 10px;
@@ -85,7 +85,9 @@ legend { /*geeft een naam aan het contact formulier*/
 
 /*einde contact formulier*/
 
-.bedankt {
+/*begin bedankt pagina na contact formulier*/
+
+.bedankt { /*geeft alle waarden door aan de div waar het bedankje in staat*/
     width: auto;
     height: auto;
     background-color: lightskyblue;
@@ -98,13 +100,17 @@ legend { /*geeft een naam aan het contact formulier*/
     margin-top: 50px;
 }
 
-h1 {
+h1 {/*geeft de waarden mee aan de text binnen het bedankje.*/
     font-family: 'Indie Flower', cursive;
     font-size: 1.5rem;
     color: cornflowerblue;
 }
 
-.opleiding {
+/*einde bedankt pagina na contact formulier*/
+
+/*begin main page*/
+
+.opleiding {/*geeft alle waarden door aan het text vak bovenaan de main page*/
     width: auto;
     height: auto;
     margin-left: 200px;
@@ -121,14 +127,14 @@ h1 {
     box-shadow: lightgray 5px 7px;
 }
 
-.voornaamkleur{
+.voornaamkleur{/*geeft kleur aan de voornaam binnen het text blok*/
     color: orange;
     display: inline-block;
     font-weight: 600;
     font-size: 1.25rem;
 }
 
-.banner {
+.banner {/*geeft alle waarden aan de 1e & 2e banner van de main page (midden & onderin)*/
     width: 100%;
     height: 75px;
     background-color: darkslategray;
@@ -142,7 +148,7 @@ h1 {
     opacity: 0.85;
 }
 
-.imagegallery {
+.imagegallery {/*geef alle waarden mee aan de image gallery*/
     width: 100%;
     height: 100%;
     display: flex;
@@ -156,25 +162,25 @@ h1 {
 
 }
 
-img {
+img {/*geeft alle waarden mee aan de foto's zelf buiten de hele image gallery om.*/
     border-radius: 25px;
     margin-top: 50px;
     margin-left: 30px;
     box-shadow: 10px 10px 15px grey;
 }
 
-.verplaatsimage {
+.verplaatsimage {/*zorgt dat de foto's op de juiste positie komen te staan*/
     justify-content: center;
 }
 
-main {
+main {/*is de main div rond de image gallery*/
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-.cv {
+.cv {/*geeft alle waarden mee aan de div die alle inhoud over mijn cv heeft*/
     margin-top: 50px;
     margin-bottom: 50px;
     width: 250px;
@@ -184,7 +190,7 @@ main {
     text-align: center;
 }
 
-.voortgangstabel {
+.voortgangstabel {/*geeft alle waarden mee aan de div die alle inhoud van de link naar mijn voortgangstabel draagt*/
     margin-top: 50px;
     margin-bottom: 50px;
     width: 250px;
@@ -194,16 +200,17 @@ main {
     text-align: center;
 }
 
-i {
+i { /*positioneerd de pictogrammen*/
     margin-top: 60px;
 }
 
-.fa {
+.fa {/*geeft de grootte me aan de pictogrammen*/
     font-size: 100px !important;
 }
+
 /*begin progressbars*/
 
-.alleprogress{
+.alleprogress{/*positioneerd en geeft waarden mee aan alle progresbars*/
     width: 80%;
     height: auto;
     background-color: grey;
@@ -213,7 +220,7 @@ i {
     margin:0 auto;
     margin-bottom: 50px;
 }
-.progressbar{
+.progressbar{/*geef alle onderliggende progressbars waarden*/
     width: 90%;
     height: 25px;
     background-color: darkgrey;
@@ -221,7 +228,7 @@ i {
     border-radius: 25px;
     margin-bottom: 25px;
 }
-.progressbar2{
+.progressbar2{/*geeft waarden mee aan de bovenliggende progressbars*/
     width: 90%;
     height: 25px;
     background-color: darkgrey;
@@ -229,7 +236,7 @@ i {
     border-radius: 25px;
 }
 
-.html{
+.html{/*geeft waarden aan individuele progressbars*/
     width:85%;
     height:25px;
     background-color: red;
@@ -241,7 +248,7 @@ i {
     line-height: 25px;
 }
 
-.css{
+.css{/*geeft waarden aan individuele progressbars*/
     width:80%;
     height:25px;
     background-color: green;
@@ -253,7 +260,7 @@ i {
     line-height: 25px;
 }
 
-.java{
+.java{/*geeft waarden aan individuele progressbars*/
     width:10%;
     height:25px;
     background-color: orange;
@@ -265,7 +272,7 @@ i {
     line-height: 25px;
 }
 
-.php{
+.php{/*geeft waarden aan individuele progressbars*/
     width:5%;
     height:25px;
     background-color: yellowgreen;
@@ -277,13 +284,16 @@ i {
     line-height: 25px;
 }
 
-.update{
+.update{/*laat zien wanneer de bars voor het laatst geupdate zijn*/
     text-align: center;
     font-size: 0.5rem;
 }
-/*eindeprogressbars*/
+/*einde progressbars*/
+/*einde mainpae*/
 
-footer{
+/*begin footer*/
+
+footer{/*geeft de waarden mee aan de footer*/
     width:100%;
     height: 175px;
     background-color: #225f85;
@@ -296,27 +306,46 @@ footer{
     opacity: 0.9;
 }
 
-.footercontact {
+.footercontact {/*apparte div binnen de footer*/
     width:auto;
     height:auto;
     margin-top: 2.5%;
 }
 
-.footeromhoog{
+.footeromhoog{/*apparte div binnen de footer*/
     width: auto;
     height: auto;
     margin-top: 6%;
 }
 
-.omhoog{
+.omhoog{/*apparte div binnen de footer*/
     background-color: transparent;
     color: darkorange;
     border-color: white;
     border-radius: 5px 15px 5px 15px;
 }
 
-.footernote{
+.footernote{/*apparte div binnen de footer*/
     width: 25%;
     height:auto;
     margin-top:1%;
 }
+/*einde footer*/
+/*begin tabel voortgang*/
+table {/*geeft de waarden mee aan de tabel*/
+    width: 70%;
+    border: 10px solid darkorange;
+    text-align: center;
+    margin:0 auto;
+    background-color: lightgrey;
+    opacity: 0.8;
+    margin-top:10%;
+    border-radius: 10px 25px ;
+}
+
+tr, td, th{/*zorgt voor de lijnen binnen het tabel*/
+    outline: 1px solid black;
+}
+/*einde tabel voortgang*/
+
+
